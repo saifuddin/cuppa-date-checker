@@ -47,8 +47,8 @@
 
         // End Date
         NSDateComponents *endDateComps = [NSDateComponents new];
-        endDateComps.hour = [[endTime componentsSeparatedByString:@":"][0] integerValue];
-        endDateComps.minute = [[endTime componentsSeparatedByString:@":"][1] integerValue];
+        endDateComps.hour = [[endTime componentsSeparatedByString:@":"][kHourIndex] integerValue];
+        endDateComps.minute = [[endTime componentsSeparatedByString:@":"][kMinuteIndex] integerValue];
         endDateComps.second = 0;
         endDateComps.year = referenceDateComponents.year;
         endDateComps.month = referenceDateComponents.month;
