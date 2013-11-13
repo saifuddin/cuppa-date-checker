@@ -16,7 +16,7 @@ int main(int argc, const char * argv[])
 
     // Example opening hours that we might be extracted from a cafe's opening hours
     // We convert it to NSDictionary
-    NSString *jsonString = @"{\"monday\":\"09:00-12:00\",\"tuesday\":\"09:00-12:00\",\"wednesday\":\"09:00-12:00|14:00-18:00\",\"thursday\":\"09:00-12:00\",\"friday\":\"09:00-12:00\",\"saturday\":\"09:00-12:00\",\"sunday\":\"09:00-12:00\"}";
+    NSString *jsonString = @"{\"monday\":\"09:00-12:00\",\"tuesday\":\"09:00-12:00\",\"wednesday\":"",\"thursday\":\"09:00-12:00|14:00-18:00\",\"friday\":\"09:00-12:00\",\"saturday\":"",\"sunday\":\"09:00-12:00\"}";
     NSData *data = [jsonString dataUsingEncoding:NSUTF8StringEncoding];
     NSDictionary *dictOpeningHours = [NSJSONSerialization JSONObjectWithData:data
                                                          options:NSJSONReadingMutableContainers
