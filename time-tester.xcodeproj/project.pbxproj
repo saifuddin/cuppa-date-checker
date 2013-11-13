@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A167A2D18336A67003FEB02 /* NSDate+CuppaDateChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A167A2C18336A67003FEB02 /* NSDate+CuppaDateChecker.m */; };
 		7A82868B1832176F00A2BEEF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A82868A1832176F00A2BEEF /* Foundation.framework */; };
 		7A82868E1832176F00A2BEEF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A82868D1832176F00A2BEEF /* main.m */; };
 		7A8286921832176F00A2BEEF /* time_tester.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7A8286911832176F00A2BEEF /* time_tester.1 */; };
@@ -26,6 +27,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7A167A2B18336A67003FEB02 /* NSDate+CuppaDateChecker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+CuppaDateChecker.h"; sourceTree = "<group>"; };
+		7A167A2C18336A67003FEB02 /* NSDate+CuppaDateChecker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+CuppaDateChecker.m"; sourceTree = "<group>"; };
 		7A8286871832176F00A2BEEF /* time-tester */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "time-tester"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A82868A1832176F00A2BEEF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7A82868D1832176F00A2BEEF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -74,6 +77,8 @@
 			isa = PBXGroup;
 			children = (
 				7A82868D1832176F00A2BEEF /* main.m */,
+				7A167A2B18336A67003FEB02 /* NSDate+CuppaDateChecker.h */,
+				7A167A2C18336A67003FEB02 /* NSDate+CuppaDateChecker.m */,
 				7A8286911832176F00A2BEEF /* time_tester.1 */,
 				7A82868F1832176F00A2BEEF /* Supporting Files */,
 			);
@@ -139,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A167A2D18336A67003FEB02 /* NSDate+CuppaDateChecker.m in Sources */,
 				7A82868E1832176F00A2BEEF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,6 +257,7 @@
 				7A8286971832176F00A2BEEF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
