@@ -34,9 +34,7 @@
         NSCalendar *calendar = [NSCalendar currentCalendar];
         [calendar setTimeZone: [NSTimeZone systemTimeZone]];
 
-        // We'll setup the days to start from last week to next week with respect to today
-        // e.g. if today is monday, then,
-        // Setup Start Date
+        // Start Date
         NSDateComponents *startDateComps = [NSDateComponents new];
         startDateComps.hour = [[startTime componentsSeparatedByString:@":"][kHourIndex] integerValue];
         startDateComps.minute = [[startTime componentsSeparatedByString:@":"][kMinuteIndex] integerValue];
@@ -47,7 +45,7 @@
         startDateComps.timeZone = [NSTimeZone systemTimeZone];
         NSDate *startDate = [calendar dateFromComponents:startDateComps];
 
-        // Setup End Date
+        // End Date
         NSDateComponents *endDateComps = [NSDateComponents new];
         endDateComps.hour = [[endTime componentsSeparatedByString:@":"][0] integerValue];
         endDateComps.minute = [[endTime componentsSeparatedByString:@":"][1] integerValue];
